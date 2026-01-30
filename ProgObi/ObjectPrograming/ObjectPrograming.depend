@@ -1,0 +1,48 @@
+# depslib dependency file v1.0
+1769808237 source:e:\progobi\objectprograming\main.cpp
+	<iostream>
+	"Library.h"
+	"Book.h"
+	"DVD.h"
+
+1769808186 e:\progobi\objectprograming\library.h
+	<vector>
+	<memory>
+	"Item.h"
+	"User.h"
+
+1769808019 e:\progobi\objectprograming\item.h
+	<string>
+
+1769808237 e:\progobi\objectprograming\user.h
+	<string>
+	<vector>
+	"Item.h"
+
+1769808046 e:\progobi\objectprograming\book.h
+	"Item.h"
+
+1769808061 source:e:\progobi\objectprograming\book.cpp
+	"Book.h"
+	<iostream>
+
+1769808140 source:e:\progobi\objectprograming\dvd.cpp
+	"DVD.h"
+	<iostream>
+
+1769808108 e:\progobi\objectprograming\dvd.h
+	"Item.h"
+
+1769808032 source:e:\progobi\objectprograming\item.cpp
+	"Item.h"
+	<stdexcept>
+
+1769808237 source:e:\progobi\objectprograming\library.cpp
+	"Library.h"
+	<iostream>
+	<fstream>
+
+1769808237 source:e:\progobi\objectprograming\user.cpp
+	"User.h"
+	<iostream>
+
